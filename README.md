@@ -27,3 +27,22 @@ ShiftScaleRotate: This technique encompasses a combination of three transformati
 Coarse Dropout: Coarse dropout involves randomly masking out rectangular regions within the images by setting their pixel values to zero. This introduces localized occlusions in the images, effectively forcing the model to focus on other relevant features. By doing so, it encourages the model to learn more robust and invariant representations of objects, thus improving its generalization ability.
 
 ![image](https://github.com/harikishanm96/S9---Assignment/assets/53985105/05cae4b1-10e2-451f-b0a0-90b0964dc1c2)
+
+## Accuracy
+
+Train accuracy: 80.82%
+
+Test accuracy: 84.77%
+
+## Per class accuracy
+
+Accuracy of plane : 84 %
+Accuracy of   car : 96 %
+Accuracy of  bird : 70 %
+Accuracy of   cat : 62 %
+Accuracy of  deer : 82 %
+Accuracy of   dog : 80 %
+Accuracy of  frog : 92 %
+Accuracy of horse : 92 %
+Accuracy of  ship : 84 %
+Accuracy of truck : 97 %
