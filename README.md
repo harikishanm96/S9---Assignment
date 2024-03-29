@@ -17,3 +17,13 @@ Depthwise Separable Convolution: One layer employs depthwise separable convoluti
 Dilated Convolution: Another layer uses dilated convolution to expand the receptive field of neurons without increasing parameters, allowing the model to capture broader contextual information.
 
 Purpose: The model leverages these modifications to improve efficiency, reduce overfitting, and enhance the model's ability to capture complex features, making it suitable for various classification tasks.
+
+## Data augmentation / albumentation transformations
+
+Horizontal Flipping: This technique involves flipping the images horizontally, effectively mirroring them along the vertical axis. By doing so, it introduces variations in the orientation of objects within the images, which can help the model generalize better to unseen data.
+
+ShiftScaleRotate: This technique encompasses a combination of three transformations: shifting, scaling, and rotating the images. Shifting involves moving the image along its x and y axes, scaling adjusts its size, and rotating changes its orientation. These transformations simulate real-world variations in object position, size, and orientation, thereby making the model more resilient to such changes during inference.
+
+Coarse Dropout: Coarse dropout involves randomly masking out rectangular regions within the images by setting their pixel values to zero. This introduces localized occlusions in the images, effectively forcing the model to focus on other relevant features. By doing so, it encourages the model to learn more robust and invariant representations of objects, thus improving its generalization ability.
+
+![image](https://github.com/harikishanm96/S9---Assignment/assets/53985105/05cae4b1-10e2-451f-b0a0-90b0964dc1c2)
